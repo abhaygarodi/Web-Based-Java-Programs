@@ -1,0 +1,23 @@
+1.	<web-app>  
+2.	  
+3.	<servlet>  
+4.	<servlet-name>s1</servlet-name>  
+5.	<servlet-class>FirstServlet</servlet-class>  
+6.	</servlet>  
+7.	  
+8.	<servlet-mapping>  
+9.	<servlet-name>s1</servlet-name>  
+10.	<url-pattern>/servlet1</url-pattern>  
+11.	</servlet-mapping>  
+12.	  
+13.	<servlet>  
+14.	<servlet-name>s2</servlet-name>  
+15.	<servlet-class>SecondServlet</servlet-class>  
+16.	</servlet>  
+17.	  
+18.	<servlet-mapping>  
+19.	<servlet-name>s2</servlet-name>  
+20.	<url-pattern>/servlet2</url-pattern>  
+21.	</servlet-mapping>  
+22.	  
+23.	</web-app>
